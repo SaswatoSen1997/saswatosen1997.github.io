@@ -64,11 +64,6 @@ h1, h2, h3 {
   box-shadow: none;
 }
 
-.navbar.navbar-light .navbar-nav .nav-item .nav-link {
-  font-size: .9rem;
-  padding-inline: .72rem;
-}
-
 .navbar .navbar-brand {
   font: 400 1.21rem Georgia, serif;
 }
@@ -140,7 +135,7 @@ h1, h2, h3 {
 
 .academic-topics {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.2rem 2rem;
 }
 
