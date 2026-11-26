@@ -20,11 +20,12 @@ An influential idea in machine learning is that real-world data have a low intri
 
 Link to research notes: 
 
-# Critical phenomena and non-perturbative QFT
+# Quantum and statitiscal field theory 
+
+In my masters, I studied asymptotic safety in quantum gravity via functional renormalization group techniques to study quantum gravity. In my PhD I have studied critical phenomena on regular graphs as a toy model for fractals, curved lattices, and spces where multiple notions of dimensions and scales exist. 
 
 ## Statistical fields on networks
 
-In my PhD I have studied critical phenomena on regular graphs as a toy model for fractals, curved lattices, and spces where multiple notions of dimensions and scales exist. 
 
 ### Critical phenomena on the Bethe lattice
 
