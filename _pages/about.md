@@ -2,7 +2,6 @@
 layout: academic-home
 title: About
 permalink: /
-description: Theoretical physics and AI research interests.
 ---
 
 I am a PhD student in theoretical physics at the [Okinawa Institute of Science and Technology](https://www.oist.jp/research/research-units/qgqft/saswato-sen). My doctoral research uses statistical field theory and the renormalization group to study critical phenomena on graphs and in curved spaces.
