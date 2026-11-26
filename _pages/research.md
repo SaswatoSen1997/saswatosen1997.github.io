@@ -7,7 +7,7 @@ nav_order: 2
 ---
 
 
-## Deep learning theory research
+# Deep learning theory research
 
 My current interests include learning dynamics, mechanistic interpretability, deep learning theory, and technical AI safety. 
 
@@ -20,7 +20,7 @@ An influential idea in machine learning is that real-world data have a low intri
 
 Link to research notes: 
 
-
+# Critical phenomena and non-perturbative QFT
 
 ## Statistical fields on networks
 
@@ -42,6 +42,6 @@ We will follow a point of view inspired by probability theory techniques that re
 
 ## Asymptotic safety in quantum gravity
 
-At Heidelberg University, I worked on higher-derivative quantum gravity using the functional renormalization group. The collaborations studied asymptotic freedom, asymptotic safety, and scaling solutions.
+We studied higher derivative gravity in general backgrounds to understand the quantum nature of gravity. We find that upto second order in truncation, both Asymptotically free and safe fixed points exist. We also find critical trajectories connecting the fixed points
 
 [Asymptotic freedom and safety in quantum gravity (DOI)](https://doi.org/10.1007/JHEP03%282022%29130) · [Scaling solutions for asymptotically free quantum gravity (DOI)](https://doi.org/10.1007/JHEP02%282023%29054)
