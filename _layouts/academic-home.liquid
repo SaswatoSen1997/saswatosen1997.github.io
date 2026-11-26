@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<section class="academic-intro">
+  <div>
+    <h1>{{ site.first_name }} {{ site.last_name }}</h1>
+    <p class="academic-subtitle">Theoretical physics · AI research interests</p>
+    <div class="academic-bio">{{ content }}</div>
+    <div class="academic-links">
+      <a class="academic-button" href="{{ '/research/' | relative_url }}">Research</a>
+      <a class="academic-button" href="{{ '/cv/' | relative_url }}">CV</a>
+    </div>
+  </div>
+  <img class="academic-portrait" src="{{ '/assets/img/saswato-sen.jpg' | relative_url }}" alt="Saswato Sen seated beside a pond" width="573" height="860">
+</section>
+
+<section class="academic-overview" aria-labelledby="research-areas">
+  <h2 id="research-areas">Research areas</h2>
+  <div class="academic-topics">
+    <div>
+      <h3><a href="{{ '/research/' | relative_url }}#statistical-fields-on-networks">Statistical fields on networks</a></h3>
+      <p>Critical phenomena, graph spectra, and Dirac walks on regular trees.</p>
+    </div>
+    <div>
+      <h3><a href="{{ '/research/' | relative_url }}#ai-research">Learning dynamics</a></h3>
+      <p>Hierarchical synthetic data and learned neural-network representations.</p>
+    </div>
+    <div>
+      <h3><a href="{{ '/research/' | relative_url }}#asymptotic-safety-in-quantum-gravity">Asymptotic safety in quantum gravity</a></h3>
+      <p>Renormalization group flows and scaling solutions in higher-derivative gravity.</p>
+    </div>
+  </div>
+</section>

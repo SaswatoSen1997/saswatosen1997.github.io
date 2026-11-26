@@ -1,0 +1,205 @@
+:root {
+  --global-bg-color: #fafbf8;
+  --global-text-color: #232d2a;
+  --global-text-color-light: #55625b;
+  --global-theme-color: #275c4b;
+  --global-hover-color: #275c4b;
+  --global-divider-color: #d6ddd5;
+  --global-card-bg-color: #eff3ed;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #19211e;
+  --global-text-color: #e5ece5;
+  --global-text-color-light: #b9c8bf;
+  --global-theme-color: #a4d5ba;
+  --global-hover-color: #a4d5ba;
+  --global-divider-color: #42534b;
+  --global-card-bg-color: #25332c;
+}
+
+body {
+  font: 400 1.0625rem/1.7 system-ui, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+[role="main"] {
+  padding-inline: clamp(1.25rem, 3vw, 2.25rem);
+  flex: 1;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  line-height: 1.17;
+}
+
+.post-title {
+  font-size: clamp(2.65rem, 6vw, 4rem);
+  letter-spacing: -.045em;
+}
+
+.post article {
+  max-width: 760px;
+}
+
+.post article h2 {
+  margin: 2.4rem 0 .8rem;
+  font-size: 1.85rem;
+}
+
+.post article h3 {
+  margin: 1.6rem 0 .6rem;
+  font-size: 1.38rem;
+}
+
+[role="main"] p a {
+  text-decoration: underline;
+  text-underline-offset: .17em;
+}
+
+.navbar.navbar-light {
+  box-shadow: none;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  font-size: .9rem;
+  padding-inline: .72rem;
+}
+
+.navbar .navbar-brand {
+  font: 400 1.21rem Georgia, serif;
+}
+
+.academic-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(190px, 29vw, 282px);
+  gap: clamp(2rem, 6vw, 5.75rem);
+  align-items: start;
+  padding: clamp(.85rem, 3vw, 2.25rem) 0 clamp(2rem, 6vw, 3.5rem);
+}
+
+.academic-intro h1 {
+  font-size: clamp(3rem, 7.7vw, 6.25rem);
+  letter-spacing: -.065em;
+  margin: -.07em 0 .15em;
+}
+
+.academic-subtitle {
+  color: var(--global-theme-color);
+  font-size: clamp(.95rem, 2vw, 1.12rem);
+  font-weight: 550;
+  margin-bottom: 1.9rem;
+}
+
+.academic-bio {
+  max-width: 36rem;
+}
+
+.academic-portrait {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 57%;
+  border-radius: .5rem;
+}
+
+.academic-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  margin-top: 1.75rem;
+}
+
+.academic-button {
+  display: inline-block;
+  border: 1px solid var(--global-divider-color);
+  border-radius: .35rem;
+  padding: .43rem .86rem;
+  color: var(--global-theme-color);
+  font-size: .92rem;
+  font-weight: 550;
+}
+
+.academic-button:hover, .academic-button:focus-visible {
+  background-color: var(--global-card-bg-color);
+}
+
+.academic-overview {
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 1.6rem;
+}
+
+.academic-overview > h2 {
+  font-size: 1.85rem;
+  margin-bottom: 1.15rem;
+}
+
+.academic-topics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem 2rem;
+}
+
+.academic-topics h3, .post article .academic-note-list h2 {
+  font-size: 1.37rem;
+  margin: 0 0 .3rem;
+}
+
+.academic-topics p, .academic-note-list p, .academic-figure figcaption {
+  color: var(--global-text-color-light);
+}
+
+.academic-note-list article {
+  padding: 1.35rem 0;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.academic-figure {
+  margin: 1.75rem 0;
+}
+
+.academic-figure img {
+  width: min(100%, 30rem);
+  height: auto;
+  display: block;
+  border-radius: .4rem;
+}
+
+.academic-figure figcaption {
+  margin-top: .65rem;
+  font-size: .92rem;
+}
+
+.publications ol.bibliography li .links a.btn {
+  margin-right: .35rem;
+  font-size: .84rem;
+  border-color: var(--global-divider-color);
+  text-transform: none;
+}
+
+footer.sticky-bottom {
+  background: var(--global-bg-color);
+  --global-footer-link-color: var(--global-theme-color);
+  border-top: 1px solid var(--global-divider-color);
+  color: var(--global-text-color-light);
+  font-size: .85rem;
+}
+
+@media (max-width: 767px) {
+  .academic-intro {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .academic-portrait {
+    max-width: 235px;
+  }
+
+  .academic-topics {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: .6rem;
+  }
+}
