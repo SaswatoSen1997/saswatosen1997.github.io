@@ -15,4 +15,6 @@ An influential idea in machine learning is that real-world data have a low intri
 
 Link to research notes:
 
+[Neural Scaling Laws on Fractals]({{ '/research-notes/neural-scaling-laws-on-fractals/' | relative_url }})
+
 [Back to research]({{ '/' | relative_url }}#research-areas)
